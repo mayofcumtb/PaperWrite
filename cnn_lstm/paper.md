@@ -18,6 +18,8 @@ However, due to the complexity of video data which consists with tremendous imag
 ## Model
 ### hierarchical neural networks
 #### cnn (transfor learning; distance discriminated metric learning)
+- model use alexnet or vgg net
+- model use 256d vector image discreptor
 #### lstm 
 - input 
 input is a 256d vector
