@@ -26,6 +26,7 @@ output is a probability of events
 ### can be train pipeline
 ## training detail
 ## experiment
+> problems: datasets; result metric.
 ### cnn training
 - add fine tuning or not
 - add distance discriminated metric learning or not
