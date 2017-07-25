@@ -4,8 +4,21 @@
 ## introduction
 motivation
 Deep learning technech is a data-driven algorithm. With the model tasj become compexity, tranditional deep learning methods need more and more labels to finish training process.
-基于深度学习的目标检测算法是一种数据量有着一定要求的算法。随着深度学习所需处理任务变得越来越复杂，获取大量的训练样本变得越来越难困难，并且对于一些目标检测算法来说，通过人工获取的标记信息依然有一定的误差。随着对深度学习算法研究的深入，近年来，两种方法可以解决训练样本减少的问题
+基于深度学习的目标检测算法是一种数据量有着一定要求的算法。随着深度学习所需处理任务变得越来越复杂，获取大量的训练样本变得越来越难困难，并且对于一些目标检测算法来说，通过人工获取的标记信息依然有一定的误差。随着对深度学习算法研究的深入，近年来，相关学者们
+
+- 动机1： 深度学习算法需要大量的标记样本，而且随着任务复杂度的增加，人工方式获取的样本其可靠性也在降低，难度也越来越大
+- 动机2： 解决样本问题有几种思路，
+-- 1. 通过平移旋转，简单扩充样本 lack文章
+-- 2. 通过无监督学习方法或弱监督学习方法来降低对人工标记样本的需求 lack
+-- 3. 利用合成数据来进行样本的扩充，降低样本获取的人工成本 lack gan 和 其他
+
+- 合成样本文章（1）cvpr2017 best paper apple inc （2）render for cnn 
+- 快递目标检测算法（1）yolov2 （2）ssd
+
+
 ## related work
+
+
 
 ```matlab
 % crop according to truncationParam
