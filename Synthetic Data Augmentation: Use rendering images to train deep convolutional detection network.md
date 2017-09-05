@@ -1,0 +1,5 @@
+# Synthetic Data Augmentation: Use rendering images to train deep convolutional detection network
+## Abstract
+Deep convolutional neural network has achieved great success on image recognition tasks. However, as a data-driven method, deep neural networks need many high quality labeled data. To overcome the shortage，a data augmentation technic has been proposed in this paper. The low-dimensional data are rendered from high-dimensional stereo data—3D CAD models which contain more appearance and geometry information. Meanwhile, detections and categories information are extracted in the rendering progress. Finally, the synthetic data as training sets and artificial labeled data as testing sets fetch into detection model for training which shows that synthetic data can help detection model achieve better performance.
+## Introduction
+Over the past decade, Deep Neural Network have significantly improved image classification and object detection. Compared to image classificatoin, object detection 
