@@ -4,6 +4,7 @@ Deep convolutional neural network has achieved great success on image recognitio
 ## Introduction
 Over the past decade, deep neural networks have significantly improved image classification[1,2] and object detection[3,4,5]. In contrast to other methods, deep neural networks require a mass of abundant labeled data in order to prevent over-fitting and enable complex networks to achieve better performance. However, compared to the image classification task, object detection label data is more expensive and laborious to be obtained。In view of the general phenomenon of insufficient markup data, many researchers have used different methods for data enhancement. We divided them into two categories: a) transformational images data augmentation method, b) synthetic images data augmentation method.
 Transformational images data aumentation method convert images to another format images. Most common utitly of image data augmentaion is image rotation transform, flipping transform, shift transform, scale transform, contrast transform, noise transform and color transform.Rotation and reflection transform rotate image with angles, it can let a image become many images with one category.Shift transform move the  transform 
+https://github.com/mayofcumtb/PaperWrite
 
 > Compared with A, the image data commonly used means of rotating | enhanced reflection transformation (Rotation/reflection): random image rotation angle; to change the content of the image;
 Flip transform (flip): flip images in horizontal or vertical directions;
